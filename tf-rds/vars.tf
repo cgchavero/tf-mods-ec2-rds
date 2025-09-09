@@ -8,6 +8,11 @@ variable "db_engine" {
     type = string
 }
 
+variable "db_engine_version" {
+    description = "The DB engine version to be used"
+    type = string
+}
+
 variable "instance_class" {
     description = "The instance class to be used"
     type = string

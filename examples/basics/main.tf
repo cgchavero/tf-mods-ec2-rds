@@ -32,7 +32,8 @@ module "rds" {
 
   # DB Instance setting
   db_identifier     = "myapp-db"
-  db_engine         = "mysql"
+  db_engine         = "postgres"
+  db_engine_version = "16.3"
   instance_class    = "db.t3.micro"
   allocated_storage = 20
 
